@@ -5,3 +5,16 @@
     margin-bottom: 30px;
     color: #152D41;
 }
+
+@media only screen and (min-width: 576px) {
+    .main-container {
+        width: 92%
+    }
+
+    .about-heading {
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+}

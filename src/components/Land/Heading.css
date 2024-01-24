@@ -12,7 +12,7 @@
     line-height: 42.19px;
 }
 
-@media only screen and (min-width: 442px) {
+@media only screen and (min-width: 576px) {
     .main-container {
         width: 92%;
         padding-left: 30px;

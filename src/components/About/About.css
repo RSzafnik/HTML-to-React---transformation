@@ -6,4 +6,18 @@
     width: 100%;
     padding: 50px 0;
     background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+
+}
+
+@media only screen and (min-width: 576px) {
+    .about-us .main-container {
+        width: 92%
+    }
+
+    .about-us {
+        width: auto;
+        padding-left: 40px;
+    }
 }

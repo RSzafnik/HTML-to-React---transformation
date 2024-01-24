@@ -7,11 +7,40 @@
 }
 
 .employee-name {
-    width: 400px;
+    width: auto;
     padding-top: 20px;
     margin-top: 0;
     font-weight: 700;
     font-size: 18px;
     text-align: center;
     line-height: 21px;
+}
+
+@media only screen and (min-width: 576px) {
+    .main-container {
+        width: 92%
+    }
+
+    .employee-name {
+        padding-left: 40px;
+        text-align: left;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .employee {
+        display: flex;
+    }
+
+    .employee:nth-of-type(even) {
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+
+    .employee:nth-of-type(even) .employee-name {
+        width: auto;
+        padding-right: 40px;
+        text-align: right;
+    }
+
 }

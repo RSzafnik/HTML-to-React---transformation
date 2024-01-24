@@ -1,10 +1,10 @@
 import React from "react";
 import "./Box.css";
 
-const Box = ({ isNew }) => {
+const Box = ({ isNew, name }) => {
   return (
     <div className={`offer-box ${isNew ? "new-box" : ""}`}>
-      {`Box ${isNew ? "1 (nowość)" : ""}`}
+      {`${name} ${isNew ? "(nowość)" : ""}`}
       {isNew && <div className="new-dot"></div>}
     </div>
   );

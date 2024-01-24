@@ -5,12 +5,12 @@ import BoxHeading from "./BoxHeading";
 
 const Offer = () => {
   const boxes = [
-    { id: 1, isNew: true },
-    { id: 2, isNew: false },
-    { id: 3, isNew: false },
-    { id: 4, isNew: false },
-    { id: 5, isNew: false },
-    { id: 6, isNew: false },
+    { id: 1, isNew: true, name: "Usługa 1" },
+    { id: 2, isNew: false, name: "Usługa 2" },
+    { id: 3, isNew: false, name: "Usługa 3" },
+    { id: 4, isNew: false, name: "Usługa 4" },
+    { id: 5, isNew: false, name: "Usługa 5" },
+    { id: 6, isNew: false, name: "Usługa 6" },
   ];
 
   return (
@@ -19,7 +19,7 @@ const Offer = () => {
         <BoxHeading text="Czym zajmuję się nasza firma?" />
         <div className="offer-boxes">
           {boxes.map((box) => (
-            <Box key={box.id} isNew={box.isNew} />
+            <Box key={box.id} isNew={box.isNew} name={box.name} />
           ))}
         </div>
       </div>

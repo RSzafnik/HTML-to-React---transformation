@@ -8,3 +8,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media only screen and (min-width: 576px) {
+    .employee-image {
+        margin: 10px;
+        flex-shrink: 0;
+    }
+}

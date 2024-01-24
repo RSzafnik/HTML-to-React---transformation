@@ -1,4 +1,3 @@
-/* Stylowanie domyślne dla urządzeń mobilnych */
 .main-body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -20,7 +19,7 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 30px;
-    /* Padding dla małych ekranów */
+
 }
 
 .navbar-list {
@@ -28,7 +27,6 @@
     padding-left: 0;
     display: flex;
     flex-direction: column;
-    /* Stosuje pionowy układ na małych ekranach */
     align-items: flex-start;
     font-size: 18px;
     font-weight: 700;
@@ -38,21 +36,17 @@
 .navbar-link,
 .navbar-disabled {
     display: none;
-    /* Ukrywa dodatkowe elementy na małych ekranach */
 }
 
-/* Stylowanie dla ekranów o szerokości 442px i większych */
-@media only screen and (min-width: 442px) {
+@media only screen and (min-width: 576px) {
     .main-container {
         width: 90%;
-        /* Można dostosować szerokość dla większych ekranów */
         padding: 0 30px;
-        /* Większy padding dla większych ekranów */
     }
 
     .navbar {
         height: 60px;
-        /* Większa wysokość navbara */
+
     }
 
     .navbar-list {
@@ -60,7 +54,7 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        /* Dostosowanie paddingu */
+
     }
 
     .navbar-item:not(:first-child),
