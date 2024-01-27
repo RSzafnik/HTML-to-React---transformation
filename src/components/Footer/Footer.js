@@ -1,4 +1,3 @@
-import React from "react";
 import FooterText from "./FooterText";
 import SocialLogos from "./SocialLogos";
 import "./Footer.css";

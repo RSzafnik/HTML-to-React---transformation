@@ -1,4 +1,3 @@
-import React from "react";
 import "./OfferButton.css";
 const OfferButton = ({ text, href }) => {
   return (

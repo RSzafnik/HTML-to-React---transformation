@@ -1,23 +1,7 @@
-import React from "react";
 import EmployeeCard from "./EmployeeCard";
 import Heading from "./Heading";
 import "./About.css";
-import generateLoremIpsum from "../../Helpers/Lorem";
-
-const employees = [
-  {
-    name: "Imię Nazwisko",
-    position: "Dział",
-    description: generateLoremIpsum(40),
-    image: "./assets/empl-1.jpg",
-  },
-  {
-    name: "Imię Nazwisko",
-    position: "Dział",
-    description: generateLoremIpsum(40),
-    image: "/assets/empl-2.jpg",
-  },
-];
+import employees from "../../Data/Employees";
 
 const About = () => (
   <section id="about-us" className="about-us">

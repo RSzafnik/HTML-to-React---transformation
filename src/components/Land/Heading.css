@@ -5,7 +5,7 @@
 }
 
 .landing-heading {
-    width: 359px;
+    width: 70%;
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 35px;
@@ -14,16 +14,11 @@
 
 @media only screen and (min-width: 576px) {
     .main-container {
-        width: 92%;
-        padding-left: 30px;
-        padding-right: 30px;
-        margin: 0 auto;
+        width: 960px;
+        padding: 0 30px;
     }
 
     .landing-heading {
         width: 577px;
-        font-size: 36px;
-        font-weight: 700;
-        margin-bottom: 35px;
     }
 }

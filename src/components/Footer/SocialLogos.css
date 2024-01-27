@@ -13,8 +13,6 @@
 
 @media only screen and (min-width: 576px) {
     .social-logos {
-        display: flex;
-        flex-direction: row;
         justify-content: flex-end;
         align-items: center;
     }

@@ -1,4 +1,3 @@
-import React from "react";
 import Heading from "./Heading.js";
 import Paragraph from "./Paragraph.js";
 import OfferButton from "./OfferButton.js";

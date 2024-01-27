@@ -1,5 +1,3 @@
-import React from "react";
-
 const NavbarItem = ({ children, href, disabled }) => {
   return (
     <li className={`navbar-item ${disabled ? "navbar-disabled" : ""}`}>

@@ -1,12 +1,10 @@
 .employee-image {
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
     border-radius: 50%;
     width: 197px;
     height: 197px;
     background-size: cover;
     background-position: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 @media only screen and (min-width: 576px) {

@@ -11,11 +11,7 @@
 
 @media only screen and (min-width: 576px) {
     .main-container {
-        width: 92%
-    }
-
-    .employee-description {
-        width: auto;
+        width: 960px;
     }
 
     .employee:nth-of-type(odd) .employee-description {

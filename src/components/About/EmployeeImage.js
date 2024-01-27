@@ -1,4 +1,3 @@
-import React from "react";
 import "./EmployeeImage.css";
 
 const EmployeeImage = ({ image }) => (

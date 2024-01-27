@@ -1,4 +1,3 @@
-import React from "react";
 import "./Paragraph.css";
 
 const Paragraph = ({ text }) => {

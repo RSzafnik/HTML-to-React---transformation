@@ -1,4 +1,3 @@
-import React from "react";
 import EmployeeImage from "./EmployeeImage";
 import Description from "./Description";
 import "./EmployeeCard.css";

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Heading.css";
 
 const Heading = ({ text }) => <h2 className="about-heading">{text}</h2>;
