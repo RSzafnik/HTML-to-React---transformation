@@ -3,11 +3,25 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 70%;
-    height: 331px;
-    padding: 30px;
+    height: 0;
+    padding-top: 70%;
     box-sizing: border-box;
     background-color: #fff;
+}
+
+.offer-box-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .new-dot {
@@ -20,7 +34,7 @@
     border-radius: 50%;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 1024px) {
     .offer-box {
         align-items: center;
         width: 198px;

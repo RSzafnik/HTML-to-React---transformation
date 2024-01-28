@@ -3,7 +3,9 @@ import "./Box.css";
 const Box = ({ isNew, name }) => {
   return (
     <div className={`offer-box ${isNew ? "new-box" : ""}`}>
-      {`${name} ${isNew ? "(nowość)" : ""}`}
+      <div className="offer-box-content">
+        {`${name} ${isNew ? "(nowość)" : ""}`}
+      </div>
       {isNew && <div className="new-dot"></div>}
     </div>
   );
